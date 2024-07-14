@@ -54,7 +54,6 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Update with your frontend URL
     "http://simple-react-website.s3-website.us-east-2.amazonaws.com/",
-    "http://new-raghubanshi.s3-website.us-east-2.amazonaws.com/",
 ]
 
 ROOT_URLCONF = 'mydjangoapp.urls'
