@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-_dn)eqgp0_1rycyp1l_#qi&4-djb+qos$kj+ghd=+)u599mcqv'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['http://3.15.187.93/']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -53,6 +53,8 @@ MIDDLEWARE = [
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Update with your frontend URL
+    "http://simple-react-website.s3-website.us-east-2.amazonaws.com/",
+    "http://new-raghubanshi.s3-website.us-east-2.amazonaws.com/"
 ]
 
 ROOT_URLCONF = 'mydjangoapp.urls'
